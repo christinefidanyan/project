@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="welcome">
+        </div>
+        <div class="login">
+            <div class="container">
+                <div class="icon">
+                    <img class="icon1" src="./img/login/icon1.svg" alt="">
+                    <img class="icon2" src="./img/login/icon2.svg" alt="">
+                    <img class="icon3" src="./img/login/icon3.svg" alt="">
+                    <img class="icon4" src="./img/login/icon_oval.svg" alt="">
+                    <img class="icon5" src="./img/login/icon_oval.svg" alt="">
+                    <img class="icon6" src="./img/login/icon_oval.svg" alt="">
+                    <img class="icon7" src="./img/login/icon_oval.svg" alt="">
+                </div>
+                <div>
+                    <h2>Login to your Account</h2>
+                    <p>See what is going on with your business</p>
+                    <button><img src="./img/login/googleIcon.svg" alt=""> Continue with Google</button>
+                </div>
+                <div class="another_sign">
+                    <p>------------- or Sign in with Email ------------- </p>
+                </div>
+                <form action="" autocomplete="off">
+                    <p>Email</p>
+                    <input type="email" placeholder="mail@abc.com" required>
+                    <p class="form_pass">Password</p>
+                    <input id="input" type="password" placeholder="*****************" required minlength="8" lowerCase
+                        upperCase>
+                    <div id="error"></div>
+                    <div class="form_actions">
+
+                        <label class="label"><input type="checkbox"><span>Remember Me</span></label>
+
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="log_in">Log In</button>
+                </form>
+            </div>
+            <div class="sign_up">
+                <span>Not Registered Yet?</span>
+                <a href="#">Create an account</a>
+            </div>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

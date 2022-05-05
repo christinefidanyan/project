@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    ;
+}
+
+.main {
+    width: 1920px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* =============================================================================== */
+.welcome {
+    width: 1109px;
+    height: 1080px;
+    position: relative;
+    background-color: #FFE6C9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/main/main_back.png");
+}
+.welcome img{
+    position: absolute;
+    bottom: 0;
+   left:1000px;
+   opacity: .4;
+}
+
+/* ===============================LOGIN===================================== */
+.login {
+    height: 1080px;
+    width: 811px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 420px;
+    height: 950px;
+}
+
+.container h2 {
+    font-size: 36px;
+}
+
+.container div button {
+    width: 100%;
+    height: 45px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #828282;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button img {
+    margin: 0 10px 0 0;
+}
+
+/* ============================ICON=================================================== */
+.icon{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon img{
+    position: absolute;
+}
+.icon1{
+    top: 0;
+    left:calc(50% - 5px);
+}
+.icon2{
+    top: calc(50% - 5px);
+}
+.icon3{
+    bottom: 0;
+    left:calc(50% - 5px); 
+}
+.icon4{
+    top: 10px;
+    left: 10px;
+}
+.icon5{
+    top: 10px;
+    right: 10px;
+}
+.icon6{
+    bottom: 10px;
+    left: 10px;
+}
+.icon7{
+    bottom: 10px;
+    right: 10px;
+}
+/* ========================================================================= */
+.another_sign {
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #DDDDDD;
+}
+
+/* ===================FORM============================================================= */
+form {
+    width: 100%;
+    margin: 40px 0;
+}
+
+form>input {
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 8px 0;
+    outline: 0;
+}
+
+.form_pass {
+    margin-top: 20px;
+}
+
+.form_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_actions label span {
+    margin-left: 7px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #A1A1A1;
+
+}
+.form_actions label{
+    position: relative;
+}
+.label::before{ 
+    content: "";
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 3px;
+    border-radius: 3px;
+    background-image: url("../img/login/Check.svg"); 
+}
+
+
+.form_actions a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #7F265B;
+    text-decoration: none;
+
+
+}
+
+.log_in {
+    width: 100%;
+    height: 45px;
+    background: #7F265B;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #E0E0E0;
+
+}
+#error{
+    color: red;
+    font-size: 12px;
+}
+/* ============================================================================= */
+.sign_up a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #7F265B;
+    text-decoration: none;
+    margin-left:5px ;
+}
+.sign_up span{
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+color: #828282;
+
+}
+/* ========================================================================== */
